@@ -1,5 +1,8 @@
 {
   "projects": {
-    "default": "fireship-lessons"
-  }
+    "default": "fireship-lessons-d51bb",
+    "fireship-lessons": "fireship-lessons-d51bb"
+  },
+  "targets": {},
+  "etags": {}
 }

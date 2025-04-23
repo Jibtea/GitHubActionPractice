@@ -1,0 +1,49 @@
+[debug] [2025-04-23T11:18:26.367Z] ----------------------------------------------------------------------
+[debug] [2025-04-23T11:18:26.370Z] Command:       C:\Program Files\nodejs\node.exe D:\CEDT\01_2\SE\GitHubActionPractice\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2025-04-23T11:18:26.370Z] CLI Version:   14.2.0
+[debug] [2025-04-23T11:18:26.370Z] Platform:      win32
+[debug] [2025-04-23T11:18:26.370Z] Node Version:  v22.14.0
+[debug] [2025-04-23T11:18:26.371Z] Time:          Wed Apr 23 2025 18:18:26 GMT+0700 (เวลาอินโดจีน)
+[debug] [2025-04-23T11:18:26.371Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-04-23T11:18:26.571Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-04-23T11:18:26.572Z] > authorizing via signed-in user (jkunyaphila@gmail.com)
+[info] i  emulators: Starting emulators: hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: hosting"}}
+[debug] [2025-04-23T11:18:26.581Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2025-04-23T11:18:26.581Z] [hosting] Hosting Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2025-04-23T11:18:26.581Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":9999}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[debug] [2025-04-23T11:18:26.585Z] [hub] writing locator at C:\Users\jkuny\AppData\Local\Temp\hub-fireship-lessons-d51bb.json
+[debug] [2025-04-23T11:18:26.600Z] Checked if tokens are valid: true, expires at: 1745409275899
+[debug] [2025-04-23T11:18:26.600Z] Checked if tokens are valid: true, expires at: 1745409275899
+[debug] [2025-04-23T11:18:26.601Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/fireship-lessons-d51bb/sites 
+[debug] [2025-04-23T11:18:27.463Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/fireship-lessons-d51bb/sites 200
+[debug] [2025-04-23T11:18:27.463Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/fireship-lessons-d51bb/sites {"sites":[{"name":"projects/fireship-lessons-d51bb/sites/fireship-lessons-d51bb","defaultUrl":"https://fireship-lessons-d51bb.web.app","type":"DEFAULT_SITE"}]}
+[debug] [2025-04-23T11:18:27.464Z] Checked if tokens are valid: true, expires at: 1745409275899
+[debug] [2025-04-23T11:18:27.464Z] Checked if tokens are valid: true, expires at: 1745409275899
+[debug] [2025-04-23T11:18:27.464Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/fireship-lessons-d51bb/webApps/-/config [none]
+[debug] [2025-04-23T11:18:28.046Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/fireship-lessons-d51bb/webApps/-/config 200
+[debug] [2025-04-23T11:18:28.046Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/fireship-lessons-d51bb/webApps/-/config {"projectId":"fireship-lessons-d51bb","storageBucket":"fireship-lessons-d51bb.firebasestorage.app","apiKey":"AIzaSyAdglG8ZR-g_qml5GXnRiBcWf1Ly99vPBE","authDomain":"fireship-lessons-d51bb.firebaseapp.com","messagingSenderId":"57217919767"}
+[debug] [2025-04-23T11:18:28.052Z] Checked if tokens are valid: true, expires at: 1745409275899
+[debug] [2025-04-23T11:18:28.052Z] Checked if tokens are valid: true, expires at: 1745409275899
+[debug] [2025-04-23T11:18:28.052Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/fireship-lessons-d51bb [none]
+[debug] [2025-04-23T11:18:28.325Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/fireship-lessons-d51bb 200
+[debug] [2025-04-23T11:18:28.325Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/fireship-lessons-d51bb {"projectId":"fireship-lessons-d51bb","projectNumber":"57217919767","displayName":"fireship-lessons","name":"projects/fireship-lessons-d51bb","resources":{"hostingSite":"fireship-lessons-d51bb"},"state":"ACTIVE","etag":"1_96685439-7079-485d-95a1-3805a8c0d918"}
+[info] i  hosting[fireship-lessons-d51bb]: Serving hosting files from: Y {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mY\u001b[22m"}}
+[info] +  hosting[fireship-lessons-d51bb]: Local server: http://127.0.0.1:9999 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://127.0.0.1:9999\u001b[22m\u001b[24m"}}
+[warn] !  emulators: The Emulator UI is not starting, either because none of the running emulators have a UI component or the Emulator UI cannot determine the Project ID. Pass the --project flag to specify a project. {"metadata":{"emulator":{"name":"hub"},"message":"The Emulator UI is not starting, either because none of the running emulators have a UI component or the Emulator UI cannot determine the Project ID. Pass the --project flag to specify a project."}}
+[debug] [2025-04-23T11:18:28.349Z] Could not find VSCode notification endpoint: FetchError: request to http://localhost:40001/vscode/notify failed, reason: . If you are not running the Firebase Data Connect VSCode extension, this is expected and not an issue.
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+└─────────────────────────────────────────────────────────────┘
+
+┌──────────┬────────────────┐
+│ Emulator │ Host:Port      │
+├──────────┼────────────────┤
+│ Hosting  │ 127.0.0.1:9999 │
+└──────────┴────────────────┘
+  Emulator Hub host: 127.0.0.1 port: 4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
